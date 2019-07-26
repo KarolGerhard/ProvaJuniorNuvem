@@ -1,0 +1,21 @@
+//Respostas
+//A
+SELECT v.placa, m.nome, m.cpf, m.idade 
+FROM  viagem vi
+INNER JOIN veiculo v ON vi.veiculoId = v.veiculoId
+INNER JOIN motorista m ON vi.motoristaId = m.motoristaId
+WHERE viagemId = 2
+
+//B
+SELECT m.nome, m.cpf 
+FROM viagem vi
+INNER JOIN motorista m ON vi.motoristaId = m.motoristaId
+ORDER BY m.nome
+
+//C
+SELECT m.nome
+FROM viagem vi
+INNER JOIN veiculo v ON vi.veiculoID = v.veiculoID
+INNER JOIN motorista m ON vi.motoristaId = m.motoristaId
+WHERE cor LIKE 'V%'
+
