@@ -28,7 +28,7 @@ namespace Lanchinho
             Console.WriteLine("Gerando novo arquivo!");
 
             StreamWriter conta;
-            string caminhoArquivo = @"C:\Arquivo Prova\saida.txt";
+            string caminhoArquivo = @"C:\Prova\ProvaJunior\Lanchinho\saida.txt";
 
             conta = File.CreateText(caminhoArquivo);
 
@@ -43,7 +43,7 @@ namespace Lanchinho
             static List<Pedido> obterDadosArquivoPedido()
             {
                 var pedidos = new List<Pedido>();
-                var file = @"C:\Arquivo Prova\entrada.csv";
+                var file = @"C:\Prova\ProvaJunior\Lanchinho\pedido.csv";
                 if (File.Exists(file))
                 {
                     using (Stream entrada = File.Open(file, FileMode.Open))
@@ -80,7 +80,7 @@ namespace Lanchinho
             static List<Produto> obterDadosArquivoProduto()
             {
                 var produtos = new List<Produto>();
-                var file = @"C:\Arquivo Prova\entradaLanchinho.csv";
+                var file = @"C:\Prova\ProvaJunior\Lanchinho\produtos.csv";
                 if (File.Exists(file))
                 {
                     using (Stream entrada = File.Open(file, FileMode.Open))

@@ -30,7 +30,7 @@ namespace HallDosAssasinos
         static List<Assassinato> obterDados()
         {
             var assassinatos = new List<Assassinato>();
-            var file = @"C:\Arquivo Prova\entradaHallAssasinos.txt";
+            var file = @"C:\Prova\ProvaJunior\HallDosAssasinos\entradaHallAssasinos.txt";
             if (File.Exists(file))
             {
                 using (Stream entrada = File.Open(file, FileMode.Open))

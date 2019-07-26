@@ -18,7 +18,6 @@ namespace FibonacciInteressante
                 Console.WriteLine(Fibonacci(numero));
             }
 
-            //Console.WriteLine(Fibonacci(numero));
             Console.ReadKey();
         }
 

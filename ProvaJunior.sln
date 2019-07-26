@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtracaoDeDiamantes", "Extr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HallDosAssasinos", "HallDosAssasinos\HallDosAssasinos.csproj", "{9E5556E3-B069-4992-8D6F-45CB8967FE59}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenioAdivinhacaoBonus", "GenioAdivinhacao\GenioAdivinhacaoBonus.csproj", "{465C1899-6C3A-4652-BA1B-EE3BBDB11BC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{9E5556E3-B069-4992-8D6F-45CB8967FE59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E5556E3-B069-4992-8D6F-45CB8967FE59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E5556E3-B069-4992-8D6F-45CB8967FE59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{465C1899-6C3A-4652-BA1B-EE3BBDB11BC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{465C1899-6C3A-4652-BA1B-EE3BBDB11BC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{465C1899-6C3A-4652-BA1B-EE3BBDB11BC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{465C1899-6C3A-4652-BA1B-EE3BBDB11BC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
